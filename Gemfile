@@ -54,6 +54,8 @@ gem 'toastr-rails'
 
 gem 'friendly_id'
 
+gem 'momentjs-rails'
+
 gem 'rails_12factor', group: :production
 
 group :development, :test do

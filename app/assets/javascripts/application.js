@@ -18,5 +18,5 @@
 //= require scrollreveal.min.js
 //= require toastr
 //= require jquery.magnific-popup.min.js
-
+//= require moment
 //= require_tree .
