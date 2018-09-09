@@ -19,4 +19,5 @@
 //= require toastr
 //= require jquery.magnific-popup.min.js
 //= require moment
+//= require js.cookie
 //= require_tree .

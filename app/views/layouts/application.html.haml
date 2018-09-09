@@ -9,7 +9,7 @@
     = csrf_meta_tags
     = favicon_link_tag
     %meta{:content => "summary", :name => "twitter:card"}/
-    %meta{:content => "@coderdojo_konan", :name => "twitter:site"}/
+    %meta{:content => "@CoderDojoKonan_", :name => "twitter:site"}/
     %meta{:content => "#{full_title(yield(:title))}", :name => "twitter:title"}/
     %meta{:content => "#{yield(:desc)}", :name => "twitter:description"}/
     %meta{:content => "#{full_title(yield(:title))}", :property => "og:title"}/
@@ -22,6 +22,7 @@
     %meta{:coderdojo => "1881439892127060", :property => "fb:pages"}/
     %meta{:content => "CoderDojo 岡山 岡南", :name => "author"}/
   %body
+    = render 'beta_alert_modal'
     = render 'header'
     = yield
     = render 'footer'

@@ -11,7 +11,7 @@
     = favicon_link_tag
     %meta{:content => "width=device-width,initial-scale=1", :name => "viewport"}/
     %meta{:content => "summary", :name => "twitter:card"}/
-    %meta{:content => "@coderdojo_konan", :name => "twitter:site"}/
+    %meta{:content => "@CoderDojoKonan_", :name => "twitter:site"}/
     %meta{:content => "#{full_title(yield(:title))}", :name => "twitter:title"}/
     %meta{:content => "#{yield(:desc)}", :name => "twitter:description"}/
     %meta{:content => "#{full_title(yield(:title))}", :property => "og:title"}/
@@ -27,6 +27,7 @@
     %link{:href => "https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic", :rel => "stylesheet", :type => "text/css"}/
 
   %body#page-top
+    = render 'beta_alert_modal'
     = render 'header'
     %article
       %section#page-content
