@@ -12,30 +12,10 @@
  *
  */
 
+@import "toastr";
+@import "magnific-popup.css";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-@import "toastr";
-
-@import "magnific-popup.css";
-
-@import "bootstrap-creative/creative";
-@import "pages";
+@import "admin/sb-admin/sb-admin";
 @import "bootstrap";
-
-//
-// body {
-//     background-color: floralwhite;
-// }
-::-webkit-scrollbar{
-  width: 12px;
-}
-::-webkit-scrollbar-track{
-  background: #dcdcdc;
-  border: none;
-}
-::-webkit-scrollbar-thumb{
-  background: #aaa;
-  border-radius: 1rem;
-  box-shadow: none;
-}

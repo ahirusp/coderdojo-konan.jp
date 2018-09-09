@@ -32,7 +32,7 @@ gem 'haml-rails'
 
 # gem 'kramdown', '~> 1.1.0'
 
-gem 'font-awesome-rails'
+gem 'font-awesome-sass'
 
 gem 'bcrypt', '3.1.11'
 
@@ -55,6 +55,8 @@ gem 'toastr-rails'
 gem 'friendly_id'
 
 gem 'momentjs-rails'
+
+gem 'chart-js-rails'
 
 gem 'rails_12factor', group: :production
 
