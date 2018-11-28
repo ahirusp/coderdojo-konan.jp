@@ -33,12 +33,12 @@ gem 'travis'
 
 # Others
 gem 'rest-client'
-
 gem 'bcrypt', '3.1.11'
-
 gem 'friendly_id'
+gem 'dotenv-rails'
 
-gem 'authlogic'
+gem 'devise'
+gem 'devise_invitable'
 
 gem 'rails_12factor', group: :production
 

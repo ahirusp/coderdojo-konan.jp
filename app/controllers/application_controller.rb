@@ -5,6 +5,10 @@ class ApplicationController < ActionController::Base
 
   before_action :put_ver_link
 
+  def after_sign_in_path_for(resource)
+    admin_path
+  end
+
   private
     def put_ver_link
       @header_links = [
@@ -21,5 +25,9 @@ class ApplicationController < ActionController::Base
         { url:  "#{root_url}f-and-q", text: "よくある質問 (F&Q)"},
         { url: "#{root_url}privacy-policy", text: "Privacy & Policy（個人情報保護方針）"}
       ]
+    end
+
+    def sign_in_required
+       redirect_to new_user_session_url unless user_signed_in?
     end
 end
